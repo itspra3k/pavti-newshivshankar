@@ -1,0 +1,19 @@
+{
+  "name": "ganesh-mandal-pavti-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "न्यु शिव शंकर गणेश उत्सव मंडळ - पावती व्यवस्थापन",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.20.0"
+  }
+}
